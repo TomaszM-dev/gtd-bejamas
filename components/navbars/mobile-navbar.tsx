@@ -31,7 +31,7 @@ const MobileNavbar = ({
         Navigation
       </p>
 
-      <div className=" flex  flex-col   gap-2 w-full h-full mt-28 ">
+      <div className="flex flex-col gap-2 w-full h-full mt-28 ">
         {linkData.slice(1).map((link: linkTypes) => (
           <Link
             className="cursor-pointer text-[2.6rem] font-[300]"

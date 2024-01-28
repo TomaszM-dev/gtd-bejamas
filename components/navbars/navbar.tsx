@@ -39,7 +39,7 @@ const Navbar = () => {
   const [mobileNav, setMobileNav] = React.useState<boolean>(false);
 
   return (
-    <nav className="bg-secondaryColor px-14 py-4 flex justify-between  items-center text-white ">
+    <nav className="bg-secondaryColor max-sm:px-5 px-14 py-4 flex justify-between  items-center text-white ">
       <Link
         key={linkData[0].name}
         to={linkData[0].to}

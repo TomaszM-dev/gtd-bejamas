@@ -14,11 +14,11 @@ const config: Config = {
       secondaryColor: "#4f4d53",
     },
     screens: {
-      sm: "540px",
+      sm: "600px",
       md: "768px",
       lg: "1124px",
       xl: "1280px",
-      "2xl": "1536px",
+      xxl: "1536px",
     },
   },
   plugins: [],
